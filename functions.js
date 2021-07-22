@@ -8,6 +8,7 @@ function addOfTwo(numberOne, numberTwo) {
     return result;
 }
 
+addOfTwo(2, 4)
 
 greet("John", "Doe");
 
@@ -32,5 +33,3 @@ console.log(people);
 people.unshift("New Person");
 
 console.log(people);
-
-

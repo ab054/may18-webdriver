@@ -29,6 +29,3 @@ let result = multiOfTwo(2, 4);
 printCarNames(myCars[0], myCars[1]);
 
 console.log(result)
-
-
-
