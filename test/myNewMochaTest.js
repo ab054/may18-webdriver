@@ -7,3 +7,11 @@ describe('my test name', () => {
         assert.strictEqual(actualValue, expectedResult);
     });
 });
+
+describe('Given array have 3 values ', () => {
+    it('should return -1 when the value is not present', function () {
+        let actualValue = [1, 2, 3].indexOf(4); // -1
+        let expectedResult = -1;
+        assert.strictEqual(actualValue, expectedResult);
+    });
+});
