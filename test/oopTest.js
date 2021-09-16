@@ -1,0 +1,19 @@
+import Person from "./person.js";
+import Teacher from "./teacher.js";
+
+
+describe('My first UI test', () => {
+
+    it('browser test', async () => {
+        let alex = new Person("Alex", "Barabash", "35", "male", "javascript");
+
+        alex.greeting();
+
+        console.log(alex.interests);
+
+        alex = new Teacher("Alex", "Barabash", "35", "male", "javascript", "automation", "A");
+
+        alex.greeting();
+    });
+
+});
